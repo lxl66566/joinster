@@ -1,3 +1,5 @@
+//! A classical signal implementation.
+
 use std::sync::{Arc, Condvar, Mutex};
 
 #[derive(Clone, Debug)]
